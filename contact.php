@@ -14,6 +14,7 @@
 
 </head>
 <body>
+<h1>Test</h1>
 <div class="main">
   <?php include 'inc/header.inc.php'; ?>
   <?php include 'inc/menu.inc.php'; ?>
