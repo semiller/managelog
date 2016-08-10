@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Account.php" server="ftp.managelog.com//" local="130310750044944208" remote="130457559600000000" />
+<file name="Category.php" server="ftp.managelog.com//" local="130290151587869140" remote="130457559600000000" />
+<file name="DbConnect.php" server="ftp.managelog.com//" local="130438097098405626" remote="130457559600000000" />
+<file name="Department.php" server="ftp.managelog.com//" local="130469666192478326" remote="130469566800000000" />
+<file name="Employee.php" server="ftp.managelog.com//" local="130801635318211981" remote="130801527600000000" />
+<file name="JobTitle.php" server="ftp.managelog.com//" local="130332350031182987" remote="130457559600000000" />
+<file name="Journal.php" server="ftp.managelog.com//" local="130467937555566924" remote="130467829200000000" />
+<file name="JournalCategory.php" server="ftp.managelog.com//" local="130404848239075338" remote="130457559600000000" />
+<file name="Log.php" server="ftp.managelog.com//" local="130457700155097831" remote="130457592000000000" />
+<file name="Manager.php" server="ftp.managelog.com//" local="130995941940249135" remote="130995870000000000" />
+<file name="ProjectCategory.php" server="ftp.managelog.com//" local="130332350349971221" remote="130457559600000000" />
+<file name="Projects.php" server="ftp.managelog.com//" local="130739965800000000" remote="130739965800000000" />
+<file name="Register.php" server="ftp.managelog.com//" local="130952732602761210" remote="130952660400000000" />
+<file name="SafeTrack.php" server="ftp.managelog.com//" local="130467938353022536" remote="130467830400000000" />
+<file name="SafeTrackCategory.php" server="ftp.managelog.com//" local="130438645884063508" remote="130457559600000000" />
+<file name="Training.php" server="ftp.managelog.com//" local="130494910716670249" remote="130494802800000000" />
+<file name="TrainingCategory.php" server="ftp.managelog.com//" local="130332350280987275" remote="130457559600000000" />
+<file name="TrainingRecord.php" server="ftp.managelog.com//" local="130996901222569533" remote="130996828800000000" />
+<file name="Warnings.php" server="ftp.managelog.com//" local="130433419326354886" remote="130457559600000000" />
+<file name="WorkOrder.php" server="ftp.managelog.com//" local="130739964600000000" remote="130739964600000000" />
+<file name="WorkOrderCategory.php" server="ftp.managelog.com//" local="130334430834820584" remote="130457559600000000" />
+<file name="PasswordMailer.php" server="ftp.managelog.com//" local="130439799066744950" remote="130457559600000000" />
+</dwsync>

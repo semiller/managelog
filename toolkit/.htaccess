@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+Options +Indexes
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+# Add this in head to determine base path for older programs
+# <base href="http://www.managelog.com/toolkit/" />
+# This will allow the images, js, and css to properly display
+# Example of below <a href='employee_profile/$this->employeeId'>
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^employee_profile/([0-9]+)/?$ toolkit/employee_profile.php?employeeId=$1 [NC,L]    
+#Handle requests for employee_profile
+
