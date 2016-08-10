@@ -1,0 +1,23 @@
+/* CSS Document */
+
+body { margin:0; padding:0; width:100%; font: "Segoe UI", Arial; }
+html { padding:0; margin:0; overflow: auto; overflow-x: hidden; }
+
+.paper_printing { width: 960px; margin:0 auto; padding:0; }
+
+p { font-size: 18px; }
+
+h2 { font-size: 36px; color: #054950; border-bottom: 1px solid #f78f1e; }
+h3 {font-size: 26px; font-style:italic; color: #054950; border-bottom: 1px solid #f78f1e; }
+
+span { font-weight:bold; }
+
+img { float: left; max-width: 400px; padding: 0 30px; }
+
+form { float: right; }
+
+.clr { clear:both; }
+
+/* Special Style Items */
+.employee_names { float: left; width: 300px; }
+.sign_off { float: right; width: 600px; border-bottom: 1px solid #054950; }

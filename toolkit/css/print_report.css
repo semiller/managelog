@@ -1,0 +1,59 @@
+/* CSS Document */
+
+html { width: 100%; }
+body { width: 100%; margin: 0 auto; }
+
+
+/* Hide all of this */
+.header, .menu_wrapper, .menu_content, .directions, .footer { display:none; }
+
+.training_menu, .employee_menu, .project_menu, .journal_menu, .workorder_menu, .safetrack_menu, .manager_menu { display: none; }
+/* Hide these items from the profile pages */
+.right, .right_submenu, .buttons, .btn { display:none; }
+
+/* make profile data 100% across page */
+.left, .profile_data { width: 100%; }
+
+
+/* Do not print the image button */
+.print_report_btn { display: none; }
+
+/* Do not print sortForm */
+.sortForm { display: none; }
+
+/* Change to larger font size and remove the border */
+.body_resize h2 { border: none; font-size: 36px; color: #000000; }
+
+/* Create bottom border for separation and font color */
+
+.employeeListHeader { border: 1px solid #000000; }
+.employeeListHeader p { color: #000000; }
+.employeeListContent { border-bottom: 1px solid #000000; }
+.employeeListContent p { color: #000000; }
+
+.trainingListHeader { border: 1px solid #000000; }
+.trainingListHeader p { color: #000000; }
+.trainingListContent { border-bottom: 1px solid #000000; }
+.trainingListContent p { color: #000000; }
+
+.projectListHeader { border: 1px solid #000000; }
+.projectListHeader p { color: #000000; }
+.projectListContent { border-bottom: 1px solid #000000; }
+.projectListContent p { color: #000000; }
+
+.journalListHeader { border: 1px solid #000000; }
+.journalListHeader p { color: #000000; }
+.journalListContent { border-bottom: 1px solid #000000; }
+.journalListContent p { color: #000000; }
+
+.workorderListHeader { border: 1px solid #000000; }
+.workorderListHeader p { color: #000000; }
+.workorderListContent { border-bottom: 1px solid #000000; }
+.workorderListContent p { color: #000000; }
+
+
+.safetrackListHeader { border: 1px solid #000000; }
+.safetrackListHeader p { color: #000000; }
+.safetrackListContent { border-bottom: 1px solid #000000; }
+.safetrackListContent p { color: #000000; }
+

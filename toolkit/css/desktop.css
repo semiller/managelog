@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+body { margin:0; padding:0; width:100%; }
+html { padding:0; margin:0; overflow: auto; overflow-x: hidden; }
+
+/* Default for all <p> */
+p { font: 12px "Segoe UI", Arial; color: #054950; }
+img { border:none; }
+/* LOGIN */
+.login_container { margin: 150px auto; width: 400px; }
+.login_header { text-align: center; }
+.login_box { padding: 10px; background: #edf4f5; border:1px solid #054950; border-radius: 5px; box-shadow: 0px 5px 10px 0px #CCC; } /* Box shadow h-shadow,v-shadow,blur,spread,color */
+
+.login_box .login_form { margin:0; padding:5px 10px; }
+.login_box .login_form ol { margin:0; padding:0; list-style:none; }
+.login_box .login_form li { margin:0; padding:0; background:none; border:none; display:block; }
+.login_box .login_form li.buttons { margin:5px 0 30px 0; }
+.login_box .login_form label { margin:0; width:110px; display:block; padding:10px 0; color:#054950; font: bold 13px "Segoe UI", Arial; text-transform:capitalize; float:left; }
+.login_box .login_form label span { color:#F00; }
+.login_box .login_form input.text { width:200px; border:1px solid #789a9f; margin:10px 0; padding:5px 2px; color: #054950; float:left; }
+.login_box .login_form textarea { width:375px; border:1px solid #789a9f; margin:10px 0; padding:2px; background:#edf4f5; height:100px; color: #054950; }
+.login_box .login_form li.buttons input { padding:5px; margin:0; border:0; color:#000; float:right; }
+p.response { text-align:center; color:#F00; font: normal 11px "Segoe UI", Arial; line-height:1.8em; width:auto; }
+.login_box .login_form h3 { font:normal 18px "Segoe UI", Arial; color:#282828; padding-left:5px; margin:0; background: #85bbb6; }
+
+.login_footer { text-align:center; }
+.login_footer a { text-decoration:none; color: #054950; }
+.login_footer a:hover { color: #f78f1e; }
+/* END LOGIN */
+
+/* MAIN */
+.main { width:100%; padding:0; margin:0 auto; background: #ffffff; font: "Segoe UI", Arial; }
+/* END MAIN */
+
+/* HEADER */
+.header { width:100%; background: #edf4f5; height: 40px; padding:0; margin:0 auto; border-bottom:3px solid #f78f1e; }
+.block_header { margin:0 auto; width:986px; padding:0; }
+/* END HEADER */
+.logo { float:left; padding:0; margin:0; width:150px; height: 35px; }
+
+/* LOGIN DETAILS */
+.login_details { width: 400px; margin:0; float:right; text-align:right; padding: 13px 0; }
+.login_details a { border:0; text-decoration:none; color: #054950; }
+.login_details a:hover { color: #f78f1e; }
+.login_details img { border:0; text-decoration:none; vertical-align: middle; padding-right: 5px; }
+.login_details p { font: 12px "Segoe UI", Arial; color: #054950; margin: 0; }
+/* END LOGIN DETAILS */
+
+/* MENU */	
+.menu_wrapper { width:100%; background: #054950; }
+.menu_content { width: 954px; height: 40px; padding: 0; margin:0px auto; } /* 3px padding is to compensate for the border */
+.menu_content ul { float:left; padding:3px 15px 0 15px; margin:0; list-style:none; border:0; }
+.menu_content ul li { float:left; width: 120px; margin:0; padding:0 10px 0 0; border:0; }
+.menu_content ul li a { float:left; width:120px; margin:0; padding: 10px 0 ; color:#edf4f5; font: bold 12px "Segoe UI", Arial; text-transform:uppercase; text-align:left; text-decoration:none; }
+.menu_content ul li a span { padding:10px 13px; background:none; }
+.menu_content ul li a:hover { color: #f78f1e; }
+.menu_content ul li a:hover span { color: #f78f1e; }
+.menu_content ul li a img { float:left; vertical-align:middle; padding-right: 2px; }
+/* END MENU */
+
+/* CONTENT BODY LEFT RIGHT */
+.body { margin:0; padding:0 0 20px 0; }
+.body_resize { width:954px; margin:5px auto; padding:0 15px; background:#ffffff; }
+
+.body_resize p { font:normal 12px "Segoe UI", Arial; color:#054950; padding:10px 5px; margin:0; line-height:1.8em; }
+.body_resize p span { color:#819e9c; }
+.body_resize a { color:#054950; text-decoration: none; }
+.body_resize a:hover { color: #f78f1e; }
+.body_resize h2 {font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0px; background: #054950; border:1px solid #054950; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.left ul { margin:0 0 0 25px; padding:10px 0 10px 0; list-style:none; }
+.left li { padding:2px 20px; margin:0; font: normal 12px "Segoe UI", Arial; color:##054950; line-height:1.8em; }
+
+.right ul { margin:0 0 0 25px; padding:10px 0 10px 0; }
+.right li { padding:2px 20px; margin:0; font: normal 12px "Segoe UI", Arial; color:#5c8783; line-height:1.8em; }
+
+.left h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0px; background: #054950; }
+/*.body_resize img { float:left; margin:20px 10px; padding:0; }*/
+.body_resize img.floated { float:left; margin:10px 5px; padding:0; }
+.right { width:325px; float:right; margin:0; padding:10px 0 10px 10px; }
+.left { width:585px; float:left; margin:10px 0; padding:0; border:1px solid #054950; border-bottom-left-radius:5px; border-bottom-right-radius:5px; background:#edf4f5; }
+.main_content { width: 954px; background: #edf4f5; border: 1px solid #054950; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.main_content p { color: #054950; }
+.main_content h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:5px; background: #054950; }
+.float_img { float:left; vertical-align:middle; margin:0; padding: 3px 5px 0 0; }
+
+
+.right .right_submenu { float:right; width: 325px; background: #edf4f5; border: 1px solid #054950; border-bottom-left-radius:5px; border-bottom-right-radius:5px; }
+.right .right_submenu ul { float: left; list-style-type:none; padding:5px; margin:0; }
+.right .right_submenu ul li { float:left; padding: 5px 0; color: #054950; font: 12px "Segoe UI", Arial; font-weight:bold; clear:both;}
+.right .right_submenu img { vertical-align:middle; padding-right:5px; }
+.right .right_submenu h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950;}
+
+.dashboard { width: 954px; height:auto; background: #edf4f5; border: 1px solid #054950; border-top-left-radius: 5px; border-top-right-radius: 5px; /*box-shadow:0px 5px 10px 0px #CCC;*/ }
+.dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+
+/* Graphing for training display on dashboard */
+.training_graph_container { float:left; width: 555px; min-height: 265px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+
+.training_dashboard_column_header_1 { float:left; margin-top: 5px; width: 175px; background: #789a9f; }
+.training_dashboard_column_header_2 { float:left; margin-top: 5px; width: 380px; background: #789a9f; }
+
+.training_dashboard_column_header_1 p { color: #ffffff; padding:3px 0 3px 3px;}
+.training_dashboard_column_header_2 p { color: #ffffff; padding:3px 0 3px 3px;}
+
+.result_title { float:left; width:175px; font: 12px "Segoe UI", Arial; margin: 10px 0; }
+.result_title img { vertical-align:middle; padding-right:5px;}
+.result_percent {float:left; width:35px; font: 12px "Segoe UI", Arial; margin: 10px 0;}
+.result_bar_container { float:left; width: 345px; margin: 10px 0; }
+.result_bar { background: #f78f1e; height: 15px; border: 1px solid #054950; border-top-right-radius:5px; border-bottom-right-radius:5px; }
+.result_bar span { float:right; padding-right: 10px; color: #ffffff;  font:normal 11px "Segoe UI", Arial; }
+
+/* END TRAINING GRAPH - DASHBOARD */
+
+/* TRAINING RED FLAG- DASHBOARD */
+.trainingredflag_dashboard { float:left; width: 910px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+.trainingredflag_dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+.trainingredflag_dashboard_column_header { float:left; margin-top: 5px; width: 227px; background: #789a9f; }
+.trainingredflag_dashboard_column_header p { color: #ffffff; padding:3px 0 3px 3px;}
+.trainingredflag_dashboard_column { float:left; width: 227px; } /* for the content title */
+.trainingredflag_dashboard img { vertical-align:middle; padding-right:5px; }
+/* END TRAINING RED FLAG - DASHBOARD */
+
+
+/* ADMIN MENU- DASHBOARD */
+.adminmenu_dashboard { float:right; width: 315px; min-height: 265px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+.adminmenu_dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+.adminmenu_dashboard ul { float:left; list-style-type:none; padding:5px; margin:0; }
+.adminmenu_dashboard ul li { float:left; padding: 5px 0; color: #054950; font: 12px "Segoe UI", Arial; font-weight:bold; clear:both;}
+.adminmenu_dashboard p { font: 12px "Segoe UI", Arial; margin: 0; }
+.adminmenu_dashboard img { vertical-align:middle; padding-right:5px; }
+/* END ADMIN MENU DISPLAY - DASHBOARD */
+
+/* PROJECT DISPLAY - DASHBOARD */
+.project_dashboard { float:right; width: 315px; min-height: 265px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+.project_dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+.project_dashboard img { vertical-align:middle; padding-right:5px; }
+.project_dashboard_column_header_1 { float:left; margin-top: 5px; width: 200px; background: #789a9f; }
+.project_dashboard_column_header_2 { float:left; margin-top: 5px; width: 115px; background: #789a9f; }
+
+.project_dashboard_column_header_1 p { color: #ffffff; padding:3px 0 3px 3px;}
+.project_dashboard_column_header_2 p { color: #ffffff; padding:3px 0 3px 3px;}
+.project_dashboard_column_1 { float:left; width: 200px; } /* for the content title */
+.project_dashboard_column_2 { float:left; width: 115px; } /* for the create date */
+/* END PROJECT DISPLAY - DASHBOARD */
+
+
+/* JOURNAL DISPLAY - DASHBOARD */
+.journal_dashboard { float:left; width: 910px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+.journal_dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+.journal_dashboard img { vertical-align:middle; padding-right:5px; }
+.journal_dashboard_column_header { float:left; margin-top: 5px; width: 182px; background: #789a9f; }
+.journal_dashboard_column_header p { color: #ffffff; padding:3px 0 3px 3px;}
+.journal_dashboard_column { float:left; width: 182px; } /* for the content title */
+/* END JOURNAL DISPLAY - DASHBOARD */
+
+
+
+/* WORK ORDER DISPLAY - DASHBOARD */
+.workorder_dashboard { float:left; width: 555px; min-height: 265px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+.workorder_dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+.workorder_dashboard_column_header { float:left; margin-top: 5px; width: 110px; background: #789a9f; }
+
+.workorder_dashboard_column_header p { color: #ffffff; padding:3px 0 3px 3px;}
+.workorder_dashboard_column_header_title { float:left; margin-top: 5px; width: 225px; background: #789a9f; }
+
+.workorder_dashboard_column_header_title p { color: #ffffff; padding:3px 0 3px 3px;}
+.workorder_dashboard_column_title { float:left; width: 225px; } /* for the content itself */
+.workorder_dashboard_column { float:left; width: 110px; } /* for the content itself */
+.workorder_dashboard img { vertical-align:middle; padding-right:5px; }
+/* END WORKORDER DISPLAY - DASHBOARD */
+
+/* SAFETRACK DISPLAY - DASHBOARD */
+.safetrack_dashboard { float:left; width: 910px; padding: 10px; margin: 10px; background: #ffffff; border: 1px solid #054950; }
+.safetrack_dashboard h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+.safetrack_dashboard img { vertical-align:middle; padding-right:5px; }
+.safetrack_dashboard_column_header { float:left; margin-top: 5px; width: 182px; background: #789a9f; }
+.safetrack_dashboard_column_header p { color: #ffffff; padding:3px 0 3px 3px;}
+.safetrack_dashboard_column { float:left; width: 182px; } /* for the content title */
+/* END SAFETRACK DISPLAY - DASHBOARD */
+
+
+/* END CONTENT BODY LEFT RIGHT */
+
+
+/* EMPLOYEE MENU */
+.employee_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius:5px;  }
+.employee_menu ul { float:left; list-style-type:none; }
+.employee_menu ul li { float:left; padding: 0px 25px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.employee_menu img { vertical-align:middle; padding-right: 5px; }
+
+
+/* EMPLOYEE SEARCH BAR */
+.search_bar { float:left; padding: 12px 25px; } 
+.search_bar img { vertical-align:middle; padding-left: 5px; }
+
+/* END EMPLOYEE MENU */
+
+/* EMPLOYEE LIST HEADER */
+.employeeListHeader { width: 952px; height: 40px; margin: 10px 0; background: #054950; border:1px solid #054950;}
+.employeeListHeaderItems p {float:left; width: 152px; margin:0; padding: 10px 0 0 5px; color: #ffffff;}
+.employeeListContent { width: 952px; }
+.employeeListContent p {float:left; width: 152px; padding:5px 0 0 5px; margin: 0; font-size:12px; color: #054950; }
+
+
+
+/* END EMPLOYEE LIST HEADER */
+
+/* ALT DISPLAY */
+.alt_display { background: #edf4f5; }
+
+.alt_display_2 { background: #ffffff; }
+
+/* END ALT DISPLAY */
+
+
+/* GENERAL FORM */
+.generalform { margin:0; padding:0; }
+.generalform ol { margin:0; padding:0; list-style:none; }
+.generalform li { float:left; margin:0; padding:0 15px; background:none; border:none; display:block; clear:both;}
+.generalform li.buttons { float:none; width: 545px; height: 35px; margin:5px 0 5px 0; }
+.generalform label { margin:0; width:110px; display:block; padding:10px 0; color:#054950; font: 12px "Segoe UI", Arial; float:left; }
+.generalform label span { color:#F00; }
+.generalform input.text { width:400px; border:1px solid #789a9f; margin:10px 0; padding:5px 2px; height:16px; background:#ffffff; color: #054950; float:left; }
+.generalform textarea { width:400px; border:1px solid #789a9f; margin:10px 0; padding:2px; background:#ffffff; height:100px; color: #054950; }
+.generalform .checkbox { display:block; float:left; font-size: 12px; color: #054950; }
+.generalform select {width: 400px; margin: 10px 0; padding: 5px 2px; color: #054950; }
+.generalform li.buttons input { padding:0; margin:0; border:0; float:right; }
+p.response { text-align:center; color:#F00; font: normal 11px "Segoe UI", Arial; line-height:1.8em; width:auto; }
+.generalform h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+/* END GENERAL FORM */
+
+
+/* EMPLOYEE TRAINING SEARCH FORM */
+.employeeTrainingSearchForm { margin:0; padding:0; }
+.employeeTrainingSearchForm ol { margin:0; padding:0; list-style:none; }
+.employeeTrainingSearchForm li { float:left; margin:0; padding:0 15px; background:none; border:none; display:block; clear:both;}
+.employeeTrainingSearchForm li.buttons { float:none; width: 300px; height: 35px; margin:5px 0 5px 0; }
+.employeeTrainingSearchForm label { margin:0; width:110px; display:block; padding:10px 0 0 0; color:#054950; font: 12px "Segoe UI", Arial; float:left; }
+.employeeTrainingSearchForm label span { color:#F00; }
+.employeeTrainingSearchForm input.text { width:300px; border:1px solid #789a9f; margin:10px 0; padding:2px 2px; height:16px; background:#ffffff; color: #054950; float:left; }
+.employeeTrainingSearchForm select {width: 300px; margin: 10px 0; padding: 5px 2px; color: #054950; }
+.employeeTrainingSearchForm li.buttons input { padding:0; margin:0; border:0; float:right; }
+p.response { text-align:center; color:#F00; font: normal 11px "Segoe UI", Arial; line-height:1.8em; width:auto; }
+.employeeTrainingSearchForm h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0; background: #054950; }
+/* END EMPLOYEE TRAINING SEARCH FORM */
+
+
+/* PROFILE DISPLAY */
+.profile_display { margin:0; padding:0; }
+.profile_display ol { margin:0; padding:0; list-style:none; }
+.profile_display li { float:left; margin:0; padding:5px 15px 0 15px; background:none; border:none; display:block; }
+.profile_display label { margin:0; width:110px; display:block; padding:10px 0; color:#054950; font: 12px "Segoe UI", Arial; float:left; }
+.profile_display h3 { font:normal 18px "Segoe UI", Arial; color:#edf4f5; padding:5px; margin:0px; background: #054950; }
+.profile_display .buttons { float:right; margin: 10px 0;}
+.profile_display .profile_data {float:left; width: 400px; background: #ffffff; color:#054950; font: 12px "Segoe UI", Arial; padding:5px; margin: 3px 0; }
+
+.profile_display img { max-width: 400px; }
+
+/* END PROFILE DISPLAY */
+
+/* CAPTCHA */
+.captcha { font:normal 12px "Segoe UI", Arial; color:#747474; }
+.captcha span { font-size: 18px; font-weight:bold; color: #789a9f; }
+
+/* TRAINING MENU */
+.training_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius:5px; }
+.training_menu ul { float:left; list-style-type:none; }
+.training_menu ul li { float:left; padding: 0px 30px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.training_menu img { vertical-align:middle; padding-right: 5px; }
+/* END TRAINING MENU */
+
+/* TRAINING LIST HEADER */
+.trainingListHeader { width: 952px; height: 40px; margin: 10px 0; background: #054950; border:1px solid #054950;}
+.trainingListHeaderItems p {float:left; width: 152px; margin:0; padding: 10px 0 0 5px; color: #ffffff;}
+.trainingListContent { width: 952px; }
+.trainingListContent p {float:left; width: 152px; padding:5px 0 0 5px; margin: 0; font-size:11px; color: #054950; }
+/* END TRAINING LIST HEADER */
+
+/* MANAGER MENU */
+.manager_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius:5px;  }
+.manager_menu ul { float:left; list-style-type:none; }
+.manager_menu ul li { float:left; padding: 0px 30px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.manager_menu img { vertical-align:middle; padding-right: 5px; }
+/* END MANAGER MENU */
+
+
+/* PROJECT LIST HEADER */
+.projectListHeader { width: 952px; height: 40px; margin: 10px 0; background: #054950; border:1px solid #054950;}
+.projectListHeaderItems p {float:left; width: 152px; margin:0; padding: 10px 0 0 5px; color: #ffffff;}
+projectListContent { width: 952px; }
+.projectListContent p {float:left; width: 152px; padding:5px 0 0 5px; margin: 0; font-size:11px; color: #054950; }
+/* END PROJECT LIST HEADER */
+
+/* PROJECT MENU */
+.project_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius:5px;  }
+.project_menu ul { float:left; list-style-type:none; }
+.project_menu ul li { float:left; padding: 0px 30px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.project_menu img { vertical-align:middle; padding-right: 5px; }
+/* END PROJECT MENU */
+
+
+/* JOURNAL LIST HEADER */
+.journalListHeader { width: 952px; height: 40px; margin: 10px 0; background: #054950; border:1px solid #054950;}
+.journalListHeaderItems p {float:left; width: 152px; margin:0; padding: 10px 0 0 5px; color: #ffffff;}
+.journalListContent { width: 952px; }
+.journalListContent p {float:left; width: 152px; padding:5px 0 0 5px; margin: 0; font-size:11px; color: #054950; }
+/* END JOURNAL LIST HEADER */
+
+/* JOURNAL MENU */
+.journal_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius:5px;  }
+.journal_menu ul { float:left; list-style-type:none; }
+.journal_menu ul li { float:left; padding: 0px 30px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.journal_menu img { vertical-align:middle; padding-right: 5px; }
+/* END JOURNAL MENU */
+
+
+
+/* WORK ORDER LIST HEADER */
+.workorderListHeader { width: 952px; height: 40px; margin: 10px 0; background: #054950; border:1px solid #054950;}
+.workorderListHeaderItems p {float:left; width: 152px; margin:0; padding: 10px 0 0 5px; color: #ffffff;}
+.workorderListContent { width: 952px; }
+.workorderListContent p {float:left; width: 152px; padding:5px 0 0 5px; margin: 0; font-size:11px; color: #054950; }
+/* END WORK ORDER LIST HEADER */
+
+/* Work Order MENU */
+.workorder_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius: 5px;  }
+.workorder_menu ul { float:left; list-style-type:none; }
+.workorder_menu ul li { float:left; padding: 0px 20px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.workorder_menu img { vertical-align:middle; padding-right: 5px; }
+/* END Work Order MENU */
+
+/* SAFETRACK MENU */
+.safetrack_menu { width: 954px; height: 45px; margin: 0 auto; padding: 0; background: #edf4f5; border: 1px solid #054950; border-radius:5px; }
+.safetrack_menu ul { float:left; list-style-type:none; }
+.safetrack_menu ul li { float:left; padding: 0px 20px; color: #054950; font: 12px "Segoe UI", Arial; border-right: 1px solid #789a9f; font-weight:bold;}
+.safetrack_menu img { vertical-align:middle; padding-right: 5px; }
+/* END SAFETRACK MENU */
+
+/* SAFETRACK LIST HEADER */
+.safetrackListHeader { width: 952px; height: 40px; margin: 10px 0; background: #054950; border:1px solid #054950;}
+.safetrackListHeaderItems p {float:left; width: 152px; margin:0; padding: 10px 0 0 5px; color: #ffffff;}
+.safetrackListContent { width: 952px; }
+.safetrackListContent p {float:left; width: 152px; padding:5px 0 0 5px; margin: 0; font-size:11px; color: #054950; }
+/* END SAFETRACK LIST HEADER */
+
+
+/* FOOTER */
+.footer { width: 100%; padding:0; margin:0; height:40px; background: #edf4f5; }
+.footer_resize { width:960px; margin:0 auto; padding:0; }
+.footer p { font:normal 12px "Segoe UI", Arial; color:#054950; }
+.footer a { font:normal 12px "Segoe UI", Arial; color:#054950; text-decoration:none; padding:5px; margin:0; }
+.footer a:hover { color: #f78f1e; }
+.footer .left_footer { text-align:left; width:60%; margin:0; padding:0 0 0 20px; float:left; }
+
+.footer .footer_resize .left_footer ul { float:left; list-style-type:none; margin:0; padding: 10px 0; }
+.footer .footer_resize .left_footer ul li  { float:left; padding-left: 10px; }
+
+.footer .right_footer { text-align:right; width:30%; margin:0; padding:0 20px 0 0; float:right; }
+/* END FOOTER */
+
+p.clr, .clr { clear:both; padding:0; margin:0; background:none; }
+li.bg, .bg { clear:both; border-top:1px solid #dfdfdf; padding:0; margin:10px 0; background:none; line-height:0; }
+
+/* BUTTON CLASS FOR LINKS ON VIEWING PROFILES */
+.button { background:none;
+     border:none; 
+      padding:0px; margin: 0;
+	 font:normal 12px "Segoe UI", Arial; color: #054950;
+	 cursor:pointer;
+}
+
+.setup_warning { width: 954px; margin:10px auto; background: #edf4f5; border: 1px solid #054950; border-radius: 5px;}
+.setup_warning p { color: #f78f1e; font: 16px "Segoe UI", Arial; margin:0; padding:5px; }
+.setup_warning img { vertical-align:middle; padding-right: 5px; }
+
+.paging { width: 954px; margin: 10px auto; padding: 5px 5px 5px 0; text-align:right; font:normal 14px "Segoe UI", Arial; color: #054950; }
+
+.print_report_btn { float: right; padding: 5px; margin: 0; vertical-align:middle; }
+
+/* Used for horizontally echoing db results of employee list */
+/* This is the class for the employee checkbox names on the add training and safety tracker pages */
+.employeeTrainingNameWrapper { width: 400px; } /* 400px width to hold names in place (same as textbox width in form) */
+.employeeTrainingNameSpacer { float: left; width: 133px; } /* float each name and checkbox left and the width of 3 in 400px is 133px */
+
+/* Sort Form */
+.sortForm { width: 954px; margin: 0 auto; }
+.sortFormContent { float:right; }
+.sortForm select { float:left; margin-right:15px; padding:0; font:normal 14px "Segoe UI", Arial; color: #054950; height:25px; }
+.sortForm img { float:left; margin:0; padding: 0 10px; height:25px; vertical-align:middle; }
